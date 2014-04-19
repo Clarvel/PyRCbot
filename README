@@ -1,0 +1,24 @@
+Moddable IRC bot by Matthew Russell
+last updated: April 19, 2014
+
+Run __init__.py to start the bot.
+
+default settings are stored in settings.py
+	SERVER: initial server to connect to
+	CHANLIST: initial channels to connect to
+	NICKNAME: name the bot should identify with itself
+	PASSWORD: optional password for server ID purposes (not implemented?)
+	IRC_PORT: default IRC port
+	ALERTCHR: character used to indicate a command to the bot
+		if ALERTCHR = '@', a possible command would be '@roll 1d20'
+	MODS: list of mods the bot should import on startup (might move to mods.settings.py in the future)
+
+Logs of any chats the bot joins are stored in the logs folder.
+To have the bot import a mod, it should be placed in the mods folder, and the mod's folder name should be added to PyRCbot's settings.py MODS list
+	mods structure with example mods 'Dice' and 'math':
+		PyRCbot
+			mods
+				__init__.py
+				Dice
+				Math
+	mods should follow the pattern set by the mod 'Default' included in PyRCbot.

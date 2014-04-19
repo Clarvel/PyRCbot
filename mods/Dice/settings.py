@@ -1,0 +1,13 @@
+# import sys
+
+# REQUIRED
+# LIST OF COMMANDS IN THE MOD BASED ON USEAGE
+COMMANDS = ["roll", "limits"]
+NICKCMDS = []
+ALLMSGS  = []
+
+# Dice settings
+MAXSIDES = 10000 #sys.maxint
+MINSIDES = 1
+MAXROLLS = 50
+MINROLLS = 1

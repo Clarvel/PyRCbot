@@ -1,0 +1,293 @@
+[14:26:26] [connected at Wed Apr 16 14:26:26 2014]
+[14:36:06] [connected at Wed Apr 16 14:36:06 2014]
+[14:36:06] [PyRCbot has joined #test]
+[14:37:44] [#test] <Clarvel> :o
+[14:37:59] [#test] <Clarvel> hi pybot
+[14:39:57] [connected at Wed Apr 16 14:39:57 2014]
+[14:39:57] [PyRCbot has joined irc.darklordpotter.net]
+[14:39:57] [PyRCbot has joined #test]
+[14:39:57] [PyRCbot has joined #parahumans]
+[14:40:13] [#parahumans] <Clarvel> yess it works
+[14:42:53] [connected at Wed Apr 16 14:42:53 2014]
+[14:42:54] [PyRCbot has joined irc.darklordpotter.net]
+[14:42:54] [PyRCbot has joined #test]
+[14:42:54] [PyRCbot has joined #parahumans]
+[14:43:04] [#parahumans] <Clarvel> hm
+[14:44:08] [connected at Wed Apr 16 14:44:08 2014]
+[14:44:09] [PyRCbot has joined irc.darklordpotter.net]
+[14:44:09] [PyRCbot has joined #test]
+[14:44:09] [PyRCbot has joined #parahumans]
+[14:44:18] [#test] <Clarvel> test
+[14:45:42] [connected at Wed Apr 16 14:45:42 2014]
+[14:45:42] [PyRCbot has joined irc.darklordpotter.net]
+[14:45:42] [PyRCbot has joined #test]
+[14:45:49] [#test] <Clarvel> hm
+[15:05:18] [connected at Wed Apr 16 15:05:18 2014]
+[15:05:18] [PyRCbot has joined irc.darklordpotter.net]
+[15:05:18] [PyRCbot has joined #test]
+[15:05:59] [#test] <Clarvel> :o
+[15:06:12] [#test] <Clarvel> hm
+[15:18:40] [connected at Wed Apr 16 15:18:40 2014]
+[15:18:40] [PyRCbot has joined irc.darklordpotter.net]
+[15:18:40] [PyRCbot has joined #test]
+[15:18:46] [#test] <Clarvel> a
+[15:20:18] [connected at Wed Apr 16 15:20:18 2014]
+[15:20:19] [PyRCbot has joined irc.darklordpotter.net]
+[15:20:20] [PyRCbot has joined #test]
+[15:20:28] [#test] <Clarvel> a
+[15:21:29] [connected at Wed Apr 16 15:21:29 2014]
+[15:21:29] [PyRCbot has joined irc.darklordpotter.net]
+[15:21:29] [PyRCbot has joined #test]
+[15:21:33] [#test] <Clarvel> a
+[15:22:17] [connected at Wed Apr 16 15:22:17 2014]
+[15:22:17] [PyRCbot has joined irc.darklordpotter.net]
+[15:22:17] [PyRCbot has joined #test]
+[15:22:21] [#test] <Clarvel> a
+[15:22:59] [connected at Wed Apr 16 15:22:59 2014]
+[15:22:59] [PyRCbot has joined irc.darklordpotter.net]
+[15:22:59] [PyRCbot has joined #test]
+[15:23:02] [#test] <Clarvel> a
+[15:25:19] [#test] <Clarvel> !roll 1d4
+[15:26:18] [connected at Wed Apr 16 15:26:18 2014]
+[15:26:18] [PyRCbot has joined irc.darklordpotter.net]
+[15:26:18] [PyRCbot has joined #test]
+[15:26:33] [#test] <Clarvel> :o
+[15:26:39] [#test] <Clarvel> !roll 1d4
+[15:27:07] [#test] <Clarvel> @roll 1d4
+[15:27:07] [#test] <PyRCbot> Clarvel rolled: [4]
+[15:27:18] [#test] <Clarvel> @roll 30d20
+[15:27:18] [#test] <PyRCbot> Clarvel rolled: [15, 17, 16, 8, 17, 9, 19, 16, 19, 9, 16, 15, 3, 1, 7, 8, 16, 5, 5, 2, 18, 7, 19, 20, 16, 18, 11, 14, 4, 15]
+[15:27:36] [#test] <Clarvel> @roll 100d100
+[15:27:36] [#test] <PyRCbot> Clarvel rolled: [73, 99, 85, 56, 33, 82, 16, 54, 85, 48, 78, 23, 75, 37, 54, 18, 18, 22, 36, 61, 6, 61, 71, 81, 22, 58, 97, 21, 8, 2, 85, 47, 8, 92, 35, 82, 78, 24, 89, 61, 33, 56, 7, 10, 47, 35, 99, 84, 61, 48, 96, 94, 48, 66, 2, 1, 88, 62, 79, 28, 72, 46, 19, 85, 92, 43, 15, 2, 48, 54, 3, 62, 79, 99, 12, 9, 36, 29, 19, 29, 53, 96, 81, 54, 54, 81, 61, 30, 95, 19, 59, 67, 66, 43, 14, 30, 31, 14, 89, 51]
+[15:27:50] [#test] <Clarvel> @limits
+[15:27:50] [#test] <PyRCbot> Numbers must be between: (1 <= NUM_ROLLS <= 100) d (1 <= NUM_SIDES <= 10000)
+[15:28:22] [#test] <Clarvel> @roll 101d101
+[15:28:22] [#test] <PyRCbot> Numbers must be between: (1 <= NUM_ROLLS <= 100) d (1 <= NUM_SIDES <= 10000)
+[15:28:46] [#test] <Clarvel> @roll ad4
+[15:28:46] [#test] <PyRCbot> invalid number of dice
+[15:28:54] [#test] <Clarvel> @roll 4da
+[15:28:54] [#test] <PyRCbot> invalid number of faces
+[15:29:00] [#test] <Clarvel> @roll d
+[15:29:00] [#test] <PyRCbot> invalid number of dice
+[15:29:21] [#test] <Clarvel> @roll 4d4+5
+[15:29:21] [#test] <PyRCbot> invalid number of faces
+[15:30:40] [connected at Wed Apr 16 15:30:40 2014]
+[15:30:40] [PyRCbot has joined irc.darklordpotter.net]
+[15:30:40] [PyRCbot has joined #test]
+[15:30:40] [PyRCbot has joined #parahumans]
+[15:30:49] [#parahumans] <Clarvel> @roll 13d13
+[15:30:49] [#parahumans] <PyRCbot> Clarvel rolled: [11, 11, 10, 8, 8, 11, 6, 5, 5, 12, 9, 13, 9]
+[15:31:01] [#parahumans] <Icura> !roll 100d100
+[15:31:03] [#parahumans] <O\\\O> Invalid number of dice, choose 1-50
+[15:31:09] [#parahumans] <Clarvel> @roll 100d100
+[15:31:09] [#parahumans] <PyRCbot> Clarvel rolled: [18, 58, 47, 2, 9, 53, 34, 32, 60, 72, 35, 86, 100, 17, 100, 98, 100, 22, 74, 22, 74, 41, 79, 6, 72, 13, 23, 75, 63, 36, 6, 7, 49, 19, 71, 76, 68, 15, 34, 69, 20, 91, 26, 33, 59, 52, 91, 25, 3, 91, 13, 3, 82, 17, 23, 84, 70, 79, 75, 54, 61, 4, 41, 47, 40, 92, 63, 55, 73, 85, 88, 84, 64, 28, 9, 3, 14, 38, 52, 36, 90, 76, 29, 25, 72, 35, 72, 14, 46, 71, 43, 52, 95, 63, 96, 21, 56, 18, 75, 50]
+[15:31:15] [#parahumans] <Clarvel> eat it bitch
+[15:31:32] [#parahumans] <Clarvel> @limits
+[15:31:32] [#parahumans] <PyRCbot> Numbers must be between: (1 <= NUM_ROLLS <= 100) d (1 <= NUM_SIDES <= 10000)
+[15:31:32] [#parahumans] <Icura> Mod abuse!
+[15:31:48] [#parahumans] <Clarvel> yep, you can roll d10000
+[15:31:52] [#parahumans] <Icura> whoa, big
+[15:31:59] [#parahumans] <Clarvel> @roll 1d10000
+[15:31:59] [#parahumans] <PyRCbot> Clarvel rolled: [1213]
+[15:32:12] [#parahumans] <JENTHULHU> `roll 100d10000
+[15:32:20] [#parahumans] <JENTHULHU> @roll 100d10000
+[15:32:20] [#parahumans] <PyRCbot> JENTHULHU rolled: [4039, 3790, 8397, 3951, 664, 4367, 1769, 3069, 3472, 9299, 5451, 329, 8383, 4898, 8783, 1474, 7183, 6282, 1385, 8528, 1144, 7083, 4391, 2310, 2180, 5245, 1551, 5063, 5260, 3817, 2960, 4139, 198, 4242, 2968, 4733, 5849, 8688, 8240, 3204, 8899, 9420, 3434, 1241, 4153, 6294, 5268, 2181, 7100, 2454, 807, 1465, 1777, 7854, 7538, 73, 4208, 500, 2292, 8463, 7945, 3780, 1201, 5514, 3867, 4721, 5158, 3449, 3879, 7146, 4301, 5052, 8571, 9646, 6370, 7751, 5526, 374, 4622, 8086, 5127, 8046, 221, 8189, 8676, 2619, 3695, 8532, 8420, 2536, 4107, 8778, 7695, 8192, 8649, 6650, 5473, 667, 7670, 8093]
+[15:32:25] [#parahumans] <Icura> @roll 100d10000
+[15:32:25] [#parahumans] <PyRCbot> Icura rolled: [2478, 9161, 9721, 9584, 4836, 8768, 5190, 6914, 6113, 1891, 67, 7402, 643, 5753, 4347, 6289, 6864, 2624, 5009, 6362, 1141, 3490, 9738, 935, 5889, 9927, 8316, 5918, 7269, 8163, 6609, 5265, 6259, 3932, 879, 9437, 9363, 1634, 7814, 1262, 8302, 3949, 7706, 4803, 2312, 1783, 8174, 6049, 843, 1538, 9962, 7756, 8156, 3254, 219, 102, 5347, 2481, 9862, 5420, 2867, 7459, 2348, 4231, 7636, 9932, 9489, 2352, 4227, 8938, 9084, 5242, 1807, 1796, 341, 8522, 4919, 9087, 7601, 8380, 9850, 8055, 1254, 8165, 3687, 1453, 8317, 7891, 7582, 3705, 5526, 7284, 2724, 7009, 166, 1614, 2379, 6286, 3156, 2803]
+[15:32:31] [#parahumans] <jollyrancher> ...
+[15:32:33] [#parahumans] <Icura> !roll 100d10000
+[15:32:34] [#parahumans] <O\\\O> Invalid number of dice, choose 1-50
+[15:32:37] [#parahumans] <jollyrancher> take it to #bots please
+[15:32:38] [#parahumans] <jollyrancher> -_-
+[15:32:40] [#parahumans] <Icura> Huh, so @ works
+[15:32:59] [#parahumans] <jollyrancher> Clarvel: it should print a total somewhere
+[15:33:01] [#parahumans] <Clarvel> @ is the char for my bot to differentiate it 
+[15:33:25] [#parahumans] <jollyrancher> @quit
+[15:33:29] [#parahumans] <Clarvel> because theres already a ! bot
+[16:02:13] [connected at Wed Apr 16 16:02:13 2014]
+[16:02:13] [PyRCbot has joined irc.darklordpotter.net]
+[16:02:13] [PyRCbot has joined #test]
+[16:02:13] [PyRCbot has joined #parahumans]
+[16:02:20] [#parahumans] <Clarvel> ^there it is
+[16:02:21] [#parahumans] <Thor> !roll 1d100
+[16:02:22] [#parahumans] <O\\\O> Thor > Dice rolled 1d100: 63
+[16:02:25] [#parahumans] <Clarvel> nope
+[16:02:30] [#parahumans] <Thor> !roll 1d100+100
+[16:02:31] [#parahumans] <O\\\O> Thor > Dice rolled 1d100+100: 26
+[16:02:33] [#parahumans] <Clarvel> @roll 1d10000
+[16:02:33] [#parahumans] <PyRCbot> Clarvel rolled: [5133]
+[16:02:57] [#parahumans] <Thor> .. why does yours look different
+[16:03:06] [#parahumans] <Clarvel> diffrent format
+[16:03:24] [#parahumans] <Clarvel> uses diffrent character to denote commands as to not confuse the 2 bots
+[16:03:49] [#parahumans] <Clarvel> technically I could change the command character to ' '
+[16:05:40] soulpelt|college is now known as soulpelt|
+[16:06:57] [#parahumans] <Wildbow> @roll 1d1
+[16:06:57] [#parahumans] <PyRCbot> Wildbow rolled: [1]
+[16:07:11] [#parahumans] <Wildbow> @roll 0d0
+[16:07:11] [#parahumans] <PyRCbot> Numbers must be between: (1 <= NUM_ROLLS <= 50) d (1 <= NUM_SIDES <= 10000)
+[16:07:16] [#parahumans] <Wildbow> Aw
+[16:07:33] [#parahumans] <Wildbow> @ roll 1d-1
+[16:07:35] [#parahumans] <Thor> Wildbow: what are you writing btw? Pact or PRT Quest?
+[16:07:40] [#parahumans] <Wildbow> Pact.
+[16:07:44] [#parahumans] <Thor> @roll 1d-1
+[16:07:44] [#parahumans] <PyRCbot> Numbers must be between: (1 <= NUM_ROLLS <= 50) d (1 <= NUM_SIDES <= 10000)
+[16:07:46] [#parahumans] <Frantic> @roll 1000d1000
+[16:07:46] [#parahumans] <PyRCbot> Numbers must be between: (1 <= NUM_ROLLS <= 50) d (1 <= NUM_SIDES <= 10000)
+[16:07:52] [#parahumans] <Frantic> fuck you bot
+[16:08:03] [#parahumans] <Thor> @roll 50d1000
+[16:08:03] [#parahumans] <PyRCbot> Thor rolled: [741, 142, 314, 425, 459, 697, 366, 21, 520, 873, 652, 240, 805, 468, 681, 435, 341, 304, 158, 424, 263, 323, 579, 180, 952, 220, 990, 829, 868, 889, 69, 845, 909, 516, 313, 114, 580, 826, 574, 115, 478, 632, 716, 430, 1000, 74, 19, 328, 994, 354]
+[16:08:05] [#parahumans] <Clarvel> I lessened it a little to stop it from spamming 
+[16:08:10] [#parahumans] <Thor> ...
+[16:08:12] [#parahumans] <Thor> oops.
+[16:08:18] [#parahumans] <Thor> also
+[16:08:26] [#parahumans] <Thor> i spy with my little eye a 1000
+[16:08:28] [#parahumans] <Clarvel> it used to be a max of 10000d10000
+[16:08:39] [#parahumans] <Clarvel> which was just constant messages
+[16:09:19] [connected at Wed Apr 16 16:09:19 2014]
+[16:09:19] [PyRCbot has joined irc.darklordpotter.net]
+[16:09:19] [PyRCbot has joined #test]
+[16:09:19] [PyRCbot has joined #parahumans]
+[16:09:27] [#parahumans] <Clarvel> eval 4+5
+[16:09:31] [#parahumans] <Thor> so how'd you make it
+[16:09:33] [#parahumans] <Clarvel> @eval 4+5
+[16:09:40] [#parahumans] <Clarvel> oh
+[16:09:40] [#parahumans] <Thor> !eval 4+5
+[16:09:40] [#parahumans] <Clarvel> um
+[16:10:04] [#parahumans] <Clarvel> I used python, it has a thing for making irc called twisted
+[16:10:21] [#parahumans] <Clarvel> there was an example that I cannibalized
+[16:10:40] [#parahumans] <JENTHULHU> https://www.youtube.com/watch?v=r4EsvEgPZ84  the role model we all deserve
+[16:18:18] [connected at Wed Apr 16 16:18:18 2014]
+[16:18:19] [PyRCbot has joined irc.darklordpotter.net]
+[16:18:19] [PyRCbot has joined #test]
+[16:18:19] [PyRCbot has joined #parahumans]
+[16:18:28] [#parahumans] <Clarvel> @roll 2d4
+[16:18:28] [#parahumans] <PyRCbot> Clarvel rolled: [4, 2]
+[16:18:35] [#parahumans] <Clarvel> @eval 5+4
+[16:18:44] [#parahumans] <Clarvel> hm
+[16:19:40] [connected at Wed Apr 16 16:19:40 2014]
+[16:19:42] [PyRCbot has joined irc.darklordpotter.net]
+[16:19:42] [PyRCbot has joined #test]
+[16:19:42] [PyRCbot has joined #parahumans]
+[16:19:53] [#parahumans] <Clarvel> @eval 5+4
+[16:21:23] [connected at Wed Apr 16 16:21:23 2014]
+[16:21:24] [PyRCbot has joined irc.darklordpotter.net]
+[16:21:24] [PyRCbot has joined #test]
+[16:21:36] [#test] <Clarvel> @eval
+[16:21:56] [#test] <Clarvel> @eval 5+2
+[16:26:02] [connected at Wed Apr 16 16:26:02 2014]
+[16:26:02] [PyRCbot has joined irc.darklordpotter.net]
+[16:26:03] [PyRCbot has joined #test]
+[16:26:09] [#test] <Clarvel> @eval 5+4
+[16:28:12] [connected at Wed Apr 16 16:28:12 2014]
+[16:28:12] [PyRCbot has joined irc.darklordpotter.net]
+[16:28:12] [PyRCbot has joined #test]
+[16:28:18] [#test] <Clarvel> @eval 5+4
+[16:29:28] [#test] <Clarvel> @eval a=4+5
+[16:29:37] [#test] <Clarvel> m
+[16:30:23] [connected at Wed Apr 16 16:30:23 2014]
+[16:30:24] [PyRCbot has joined irc.darklordpotter.net]
+[16:30:24] [PyRCbot has joined #test]
+[16:30:32] [#test] <Clarvel> @eval 5+4
+[16:32:59] [connected at Wed Apr 16 16:32:59 2014]
+[16:33:00] [PyRCbot has joined irc.darklordpotter.net]
+[16:33:00] [PyRCbot has joined #test]
+[16:33:06] [#test] <Clarvel> yo
+[16:33:13] [#test] <Clarvel> @math 5+4
+[16:34:28] [connected at Wed Apr 16 16:34:28 2014]
+[16:34:28] [PyRCbot has joined irc.darklordpotter.net]
+[16:34:28] [PyRCbot has joined #test]
+[16:34:37] [#test] <Clarvel> @math 5+4
+[16:35:36] [connected at Wed Apr 16 16:35:36 2014]
+[16:35:36] [PyRCbot has joined irc.darklordpotter.net]
+[16:35:36] [PyRCbot has joined #test]
+[16:35:42] [#test] <Clarvel> @eval 5+5
+[16:35:50] [#test] <Clarvel> @math 5+6
+[16:35:50] [#test] <PyRCbot> 11
+[16:36:02] [#test] <Clarvel> @math a=5
+[16:36:51] [#test] <Clarvel> @math 5*6
+[16:36:51] [#test] <PyRCbot> 30
+[16:37:05] [#test] <Clarvel> @math -3+5/2
+[16:37:05] [#test] <PyRCbot> -1
+[16:37:36] [#test] <Clarvel> @math -3+5.0/2
+[16:37:36] [#test] <PyRCbot> -0.5
+[16:38:10] [#test] <Clarvel> @math self.a=5
+[16:38:20] [#test] <Clarvel> @math self.a
+[10:09:39] [connected at Fri Apr 18 10:09:39 2014]
+[10:09:39] [PyRCbot has joined irc.darklordpotter.net]
+[10:09:39] [PyRCbot has joined #test]
+[10:10:07] [connected at Fri Apr 18 10:10:07 2014]
+[10:10:07] [PyRCbot has joined irc.darklordpotter.net]
+[10:10:07] [PyRCbot has joined #test]
+[10:10:07] [PyRCbot has joined #parahumans]
+[10:10:13] [#parahumans] <SoS> Twisted on Python, for example.
+[10:10:19] [#parahumans] <Clarvel> python's like stupid easy
+[10:10:24] [#parahumans] <SoS> ^^
+[10:10:32] [#parahumans] <Clarvel> hey SoS guess what I'm using to run this bot :D
+[10:10:44] [#parahumans] <SoS> Give me a second.
+[10:10:45] [#parahumans] <SoS> Hmm.
+[10:10:48] [#parahumans] <Thor> your mom
+[10:10:50] [#parahumans] <SoS> If I had to go out on a limb.
+[10:10:52] [#parahumans] <SoS> Python?
+[10:11:04] [#parahumans] <SoS> \o/
+[10:11:05] [#parahumans] <Clarvel> with twisted
+[10:11:07] [#parahumans] <Clarvel> :o
+[10:11:13] [#parahumans] <Clarvel> @roll 2d4
+[10:11:13] [#parahumans] <PyRCbot> Clarvel rolled: [4, 3]
+[10:11:19] [#parahumans] <Thor> "PyRC" <-- wow i just realized what a terrible name that is
+[10:11:23] [#parahumans] <Thor> Python IRC
+[10:11:29] [#parahumans] <Clarvel> uhuh
+[10:11:31] [#parahumans] <SoS> You're terrible.
+[10:11:41] [#parahumans] <Clarvel> its the best name
+[10:11:57] [#parahumans] <Clarvel> @math 4+6
+[10:11:57] [#parahumans] <PyRCbot> 10
+[10:12:06] [#parahumans] <Thor> @math 2+2
+[10:12:06] [#parahumans] <PyRCbot> 4
+[10:12:11] [#parahumans] <Thor> ..
+[10:12:12] [#parahumans] <Thor> no its not
+[10:12:14] [#parahumans] <Thor> it's fish
+[10:12:31] [#parahumans] <Clarvel> @math 5*(3-90)+0.1
+[10:12:31] [#parahumans] <PyRCbot> -434.9
+[10:13:23] [#parahumans] <Clarvel> I uh
+[10:13:33] [#parahumans] <Clarvel> may have been high when writing math
+[14:00:21] [connected at Sat Apr 19 14:00:21 2014]
+[14:00:21] [PyRCbot has joined irc.darklordpotter.net]
+[14:00:21] [PyRCbot has joined #test]
+[14:00:38] [#test] <Clarvel> @roll 1d4
+[14:00:38] [#test] <PyRCbot> Clarvel rolled: [4]
+[14:03:58] [connected at Sat Apr 19 14:03:58 2014]
+[14:03:58] [PyRCbot has joined irc.darklordpotter.net]
+[14:03:59] [PyRCbot has joined #test]
+[14:04:23] [#test] <Clarvel> @alert test
+[14:05:23] [connected at Sat Apr 19 14:05:23 2014]
+[14:05:24] [PyRCbot has joined irc.darklordpotter.net]
+[14:05:24] [PyRCbot has joined #test]
+[14:05:45] [#test] <Clarvel> @alert test
+[14:06:17] [connected at Sat Apr 19 14:06:17 2014]
+[14:06:17] [PyRCbot has joined irc.darklordpotter.net]
+[14:06:17] [PyRCbot has joined #test]
+[14:06:24] [#test] <Clarvel> @alert test
+[14:06:24] [#test] <PyRCbot> this is an alert
+[14:06:36] [#test] <Clarvel> hi PyRCbot
+[14:07:08] [#test] <Clarvel> hum
+[14:11:46] [connected at Sat Apr 19 14:11:46 2014]
+[14:11:46] [PyRCbot has joined irc.darklordpotter.net]
+[14:11:46] [PyRCbot has joined #test]
+[14:11:59] [#test] <Clarvel> @alert test
+[14:11:59] [#test] <PyRCbot> this is an alert
+[14:12:13] [#test] <Clarvel> hi PyRCbot
+[14:12:35] [#test] <Clarvel> hrm
+[14:13:33] [connected at Sat Apr 19 14:13:33 2014]
+[14:13:34] [PyRCbot has joined irc.darklordpotter.net]
+[14:13:34] [PyRCbot has joined #test]
+[14:13:45] [#test] <Clarvel> @alert test
+[14:13:45] [#test] <PyRCbot> this is an alert
+[14:13:52] [#test] <Clarvel> hrm
+[14:14:17] [#test] <Clarvel> hi PyRCbot
+[14:17:16] [connected at Sat Apr 19 14:17:16 2014]
+[14:17:17] [PyRCbot has joined irc.darklordpotter.net]
+[14:17:17] [PyRCbot has joined #test]
+[14:17:25] [#test] <Clarvel> hello
+[14:18:39] [connected at Sat Apr 19 14:18:39 2014]
+[14:18:39] [PyRCbot has joined irc.darklordpotter.net]
+[14:18:39] [PyRCbot has joined #test]
+[14:19:04] [#test] <Clarvel> hum
