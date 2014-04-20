@@ -2,13 +2,13 @@
 Default mod's settings.py
 """
 # commands the bot should run based on charctaristics of the message
-
+# these are case sensitive
 # called if message is a command
 COMMANDS = ["alert"]
 # called if message referrs to the bot's nickname
-NICKCMDS = ["nickMessage"]
+NICKCMDS = ["nick"]
 # run on all messages recieved by the bot
-ALLMSGS = ["allMessages"]
+ALLMSGS = ["all"]
 
 
 # other settings

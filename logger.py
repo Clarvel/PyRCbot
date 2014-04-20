@@ -2,15 +2,16 @@
 Logger handles saving messages to the logs (and possibly writing to terminal??)
 
 Matthew Russell
-April 16, 2014
+April 19, 2014
 """
 #system import
 import time, os
 
 class Logger:
+
     def __init__(self, filename):
     	#open file in append mode
-    	path = os.path.join(os.path.dirname(__file__), "%s.txt" % (filename))
+    	path = os.path.join(os.path.dirname(__file__), "logs/%s.txt" % (filename))
         self.file = open(path, "a")
 
     def log(self, message):

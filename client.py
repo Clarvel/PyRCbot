@@ -1,20 +1,21 @@
 """
+Matthew Russell
+last updated April 19, 2014
 a client class for IRCbot
 handles how the bot client runs and calls mods
 
 """
 #system import
-import time, sys, os
+import time
+
 #twisted import
 from twisted.words.protocols import irc
 from twisted.internet import protocol
 
-#setup system path for mods input
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-
 #file input
-import settings, logs
-from PyRCbot.mods import ModLoader
+import settings
+from logger import Logger
+from modloader import ModLoader
 
 
 class Bot(irc.IRCClient):
@@ -24,7 +25,7 @@ class Bot(irc.IRCClient):
         self.channels = settings.CHANLIST
         self.server = settings.SERVER
         # open logger to server.txt
-        self.logger = logs.Logger(settings.SERVER)
+        self.logger = Logger(settings.SERVER)
         # load mods
         self.mods = ModLoader()
 
