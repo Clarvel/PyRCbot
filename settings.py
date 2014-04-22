@@ -5,4 +5,4 @@ NICKNAME = "PyRCbot"
 PASSWORD = ""
 IRC_PORT = 6667
 ALERTCHR = '@'
-MODS = ["Dice"]
+MODS = ["Dice", "Math"]

@@ -16,6 +16,7 @@ from twisted.internet import protocol
 import settings
 from logger import Logger
 from modloader import ModLoader
+from console import Console
 
 
 class Bot(irc.IRCClient):
@@ -26,6 +27,8 @@ class Bot(irc.IRCClient):
         self.server = settings.SERVER
         # open logger to server.txt
         self.logger = Logger(settings.SERVER)
+        # open bot to console input
+        self.console = Console(self)
         # load mods
         self.mods = ModLoader()
 
@@ -84,24 +87,26 @@ class Bot(irc.IRCClient):
         #log the message
         self.logger.log("[%s] <%s> %s" % (channel, user, msg))
         # Check to see if it is a command message
-        reply = None
+        reply = []
         if msg.startswith(settings.ALERTCHR):
             #if it is a command, set new variable to command name and trim message
-            cmdName = msg.split(' ')
-            try:
-                msg = cmdName[1]
-            except:
-                msg = ""
-            cmdName = cmdName[0].split(settings.ALERTCHR)
-            cmdName = cmdName[1]
-            reply = self.mods.callMod(user, msg, cmdName)
+            msg = msg.split(settings.ALERTCHR)
+            msg.remove('')
+            for a in msg:
+                command = a.split(' ')[0]
+                try:
+                    message = a.split(command + ' ')[1]
+                except IndexError:
+                    pass
+                else:
+                    reply.append(self.mods.callMod(user, message, command))
         elif self.nickname in msg:
-            reply = self.mods.callMod(user, msg, "@n")
+            reply.append(self.mods.callMod(user, msg, "@n"))
         else:
-            reply = self.mods.callMod(user, msg, "@a")
-        #once message gotten from mod, reply
-        if reply != None:
-            self.sendMsg(channel, reply)
+            reply.append(self.mods.callMod(user, msg, "@a"))
+        #once messages gotten from mod, reply
+        for msgs in reply:
+            self.sendMsg(channel, msgs)
         
 
 

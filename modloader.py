@@ -22,39 +22,44 @@ class ModLoader():
 		self.msgscmds  = []
 		for modName in settings.MODS:
 			#make path name
-			path = "mods." + modName + "." + modName
+			path = "mods." + modName + "."
 			try:
 				# from mods.Default.Default import Default
-				baseMod = __import__(path, globals(), locals(), [modName], -1)
+				baseMod = __import__(path + modName, globals(), locals(), [modName], -1)
 			except ImportError as error:
 				print "Import of mod '%s' failed: %s" % (modName, error)
 			else:
-				mod = getattr(baseMod, modName)()
-				self.loadedMods.append(mod)
-				index = len(self.loadedMods) - 1
-				#import command into one of the lists with an integer indexing the mod
 				try:
-					for command in mod.settings.COMMANDS:
-						temp = [command, index]
-						self.basiccmds.append(temp)
-				except AttributeError as error:
-					print error
-					pass
-				try:
-					for command in mod.settings.NICKCMDS:
-						temp = [command, index]
-						self.nickcmds.append(temp)
-				except AttributeError as error:
-					pass
-				try:
-					for command in mod.settings.ALLMSGS:
-						temp = [command, index]
-						self.msgscmds.append(temp)
-				except AttributeError as error:
-					pass
-		string = "Loaded mods: ["
+					baseModSettings = __import__(path + "settings", globals(), locals(), [settings], -1)
+				except ImportError as error:
+					print "Import of mod '%s's settings.py failed: %s" % (modName, error)
+				else:
+					mod = getattr(baseMod, modName)()
+					self.loadedMods.append(mod)
+					index = len(self.loadedMods) - 1
+					#import command into one of the lists with an integer indexing the mod
+					try:
+						for command in baseModSettings.COMMANDS:
+							temp = [command, index]
+							self.basiccmds.append(temp)
+					except AttributeError as error:
+						print error
+						pass
+					try:
+						for command in baseModSettings.NICKCMDS:
+							temp = [command, index]
+							self.nickcmds.append(temp)
+					except AttributeError as error:
+						pass
+					try:
+						for command in baseModSettings.ALLMSGS:
+							temp = [command, index]
+							self.msgscmds.append(temp)
+					except AttributeError as error:
+						pass
+		string = "Loaded mods: "
 		for mod in self.loadedMods:
-			string = string + mod.__class__.__name__ + "] "
+			string = string + "[" + mod.__class__.__name__ + "] "
 		print string
 
 	#finds the mod the command originated form, returns the run command
