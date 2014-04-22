@@ -1,7 +1,7 @@
 Moddable IRC bot by Matthew Russell
-last updated: April 19, 2014
+last updated: April 22, 2014
 
-Run __init__.py to start the bot.
+Run start.py to start the bot.
 
 default settings are stored in settings.py
 	SERVER: initial server to connect to
@@ -15,7 +15,7 @@ default settings are stored in settings.py
 
 Logs of any chats the bot joins are stored in the logs folder.
 To have the bot import a mod, it should be placed in the mods folder, and the mod's folder name should be added to PyRCbot's settings.py MODS list
-	mods structure with example mods 'Dice' and 'math':
+	mods structure with example mods 'Dice' and 'Math':
 		PyRCbot
 			mods
 				__init__.py

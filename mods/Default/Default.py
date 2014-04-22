@@ -1,12 +1,9 @@
 """
 default mod
 """
-
+import settings
 # Default's commands can be called directly because they are listed in settings.py for Default
 class Default():
-	#required settings import
-	import settings
-
 	def __init__(self):
 		self.a = AnotherClass()
 		#self.settings = settings

@@ -1,6 +1,6 @@
 """
 Matthew Russell
-apr 7 2014
+apr 22 2014
 
 Main runfile
 based on twistedmatrix's ircLogBot.py example: http://twistedmatrix.com/documents/current/words/examples/index.html
